@@ -3,9 +3,8 @@
 }
 .first_page{
   background: rgb(86,255,98);
-  background: radial-gradient(circle, rgba(86,255,98,0.7553396358543417)
-   15%, rgba(255,255,255,1) 45%);
-  font-family: Cormorant Garamond;
+  background: radial-gradient(12.54% 20.02% at 85.9% 17.29%, #A5F691 0%, rgba(255, 255, 255, 0) 100%), radial-gradient(17.13% 24.46% at 16.94% 28.52%, rgba(165, 246, 145, 0.8) 0%, rgba(165, 246, 145, 0.56) 15.63%, rgba(242, 254, 239, 0.764716) 66.15%, rgba(255, 255, 255, 0) 100%), radial-gradient(19.38% 26.83% at 56.53% 79.93%, rgba(165, 246, 145, 0.9) 0%, rgba(165, 246, 145, 0.63) 15.62%, rgba(242, 254, 239, 0.860305) 66.15%, rgba(255, 255, 255, 0) 100%), #FFFFFF;
+  font-family: Moderat;
   height: 100%;
 
 }
@@ -29,7 +28,7 @@
   border: 2px solid #333333;
   padding: 1rem 2rem;
   font-size: 1.2rem;
-  font-family: Cormorant Garamond;
+  font-family: Moderat;
   font-style: normal;
   font-weight: Bold;
   color: #333333;
@@ -75,7 +74,7 @@
   border: 2px solid #333333;
   padding: 1rem 2rem;
   font-size: 1.2rem;
-  font-family: Cormorant Garamond;
+  font-family: Moderat;
   font-style: normal;
   font-weight: Bold;
   color: #333333;
@@ -99,7 +98,7 @@
   color: #333333;
 }
 .Hello{
-  margin-top: 6rem;
+  margin-top: 8rem;
   line-height: 1.2;
   font-weight: bold;
 }
@@ -116,7 +115,7 @@
 }
 .about_me{
   padding-top: 1.8rem;
-  font-size: 2.6rem;
+  font-size: 2.4rem;
   line-height: 1.1;
 }
 .two_page{
@@ -190,7 +189,7 @@
  .white_min{
     font-size:2rem;
     font-weight: normal;
-    padding-bottom: 1rem;
+    padding-bottom: 1.3rem;
     color: #E5E5E5;
   }
 
