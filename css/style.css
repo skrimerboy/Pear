@@ -171,25 +171,25 @@
 .black {
    font-size:3rem;
    font-weight: bold;
-   padding-bottom: 1rem;
+   padding-bottom: 2rem;
    color: #333;
  }
 .black_min{
    font-size:2rem;
    font-weight: 400;
-   padding-bottom: 1rem;
+   padding-bottom: 1.2rem;
    color: #333;
  }
  .white{
    font-size:3rem;
    font-weight: bold;
-   padding-bottom: 1rem;
+   padding-bottom: 2rem;
    color: white;
  }
  .white_min{
     font-size:2rem;
     font-weight: normal;
-    padding-bottom: 1.3rem;
+    padding-bottom: 1.2rem;
     color: #E5E5E5;
   }
 
