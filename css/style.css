@@ -6,7 +6,6 @@
   background: radial-gradient(12.54% 20.02% at 85.9% 17.29%, #A5F691 0%, rgba(255, 255, 255, 0) 100%), radial-gradient(17.13% 24.46% at 16.94% 28.52%, rgba(165, 246, 145, 0.8) 0%, rgba(165, 246, 145, 0.56) 15.63%, rgba(242, 254, 239, 0.764716) 66.15%, rgba(255, 255, 255, 0) 100%), radial-gradient(19.38% 26.83% at 56.53% 79.93%, rgba(165, 246, 145, 0.9) 0%, rgba(165, 246, 145, 0.63) 15.62%, rgba(242, 254, 239, 0.860305) 66.15%, rgba(255, 255, 255, 0) 100%), #FFFFFF;
   font-family: Moderat;
   height: 100%;
-
 }
 .menu{
   display: flex;
@@ -21,7 +20,7 @@
   color: #333333;
 }
 .logo {
-  width: 4rem;
+  width: 3.6rem;
 }
 .dropbtn {
   border-radius: 4rem;
@@ -179,6 +178,7 @@
    font-weight: 400;
    padding-bottom: 1.2rem;
    color: #333;
+   line-height: 1.1;
  }
  .white{
    font-size:3rem;
@@ -191,6 +191,7 @@
     font-weight: normal;
     padding-bottom: 1.2rem;
     color: #E5E5E5;
+    
   }
 
  .my_social{
