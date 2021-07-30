@@ -10,13 +10,14 @@
 .menu{
   display: flex;
   align-items: stretch;
-  height: 4rem;
+  height: 1.6rem;
   flex-direction:row-reverse;
   flex-wrap: wrap;
   align-content: center;
   align-items: center;
   justify-content: space-between;
-  padding: 1rem 2rem;
+  padding-top:2rem;
+  padding-left:2rem;
   color: #333333;
 }
 .logo {
@@ -191,7 +192,7 @@
     font-weight: normal;
     padding-bottom: 1.2rem;
     color: #E5E5E5;
-    
+
   }
 
  .my_social{
@@ -207,4 +208,45 @@
    padding-left: .5rem;
    width: 5rem;
  }
+}
+* {
+  cursor: none;
+  margin:0;
+  padding:0;
+}
+.box {
+  position:relative;
+  z-index:0;
+  color:#fff;
+}
+.box:before {
+  content:"";
+  position:absolute;
+  z-index:999;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  background:
+  radial-gradient(farthest-side ,#fff 95%,transparent 100%)
+    calc(var(--x) - .75em) calc(var(--y) - .75em)/3rem 3rem  fixed no-repeat;
+  mix-blend-mode:difference;
+}
+.red{
+  background:
+  radial-gradient(farthest-side ,Green 95%,transparent 100%)
+    calc(var(--x) - .75em) calc(var(--y) - .75em)/ /*position*/
+    3rem 3rem   /*size of circle*/
+    fixed no-repeat;
+}
+.black{
+  background:radial-gradient(farthest-side ,cyan 95%,transparent 100%)
+    calc(var(--x) - .75em) calc(var(--y) - .75em)/3rem 3rem  fixed no-repeat;
+}
+.green{
+  margin-left:66vw;
+  position:absolute;
+  background:radial-gradient(farthest-side ,blue 95%,transparent 100%)
+    calc(var(--x) - .75em) calc(var(--y) - .75em)/1.5em 1.5em  fixed no-repeat;
+  background-color:green;
 }
